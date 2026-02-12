@@ -1,0 +1,161 @@
+{
+  "brand_identity": {
+    "name": "Travo",
+    "mission": "To make travel booking in India feel like a seamless, beautiful adventure.",
+    "tone": "Adventurous, Trustworthy, Modern, 'Vibey'",
+    "target_audience": "Gen Z & Millennial Indian travelers, Property Owners",
+    "design_archetype": "The Modern Explorer (Swiss Layouts + Organic Warmth)"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Playfair Display, serif",
+      "weights": ["400", "600", "700"],
+      "usage": "All major section headings (h1, h2, h3). Use 'tracking-tight' for a premium feel."
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["400", "500", "600"],
+      "usage": "Paragraphs, UI elements, buttons, inputs."
+    },
+    "mono": {
+      "font_family": "JetBrains Mono, monospace",
+      "usage": "Code snippets, booking reference numbers, technical data."
+    }
+  },
+  "colors": {
+    "primary": {
+      "DEFAULT": "#FF5A1F",
+      "foreground": "#FFFFFF",
+      "description": "Vibrant Saffron - The core brand color. Use for primary CTAs and key highlights."
+    },
+    "secondary": {
+      "DEFAULT": "#0F172A",
+      "foreground": "#FFFFFF",
+      "description": "Deep Slate - Use for secondary buttons and dark mode backgrounds."
+    },
+    "accent": {
+      "DEFAULT": "#10B981",
+      "foreground": "#FFFFFF",
+      "description": "Emerald Green - Use for success states, 'Available' tags, and eco-friendly badges."
+    },
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#09090B",
+      "alt_light": "#F8FAFC",
+      "alt_dark": "#18181B"
+    },
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#64748B",
+      "muted": "#94A3B8"
+    }
+  },
+  "visual_enhancers": {
+    "radius": {
+      "default": "0.75rem",
+      "large": "1rem",
+      "full": "9999px"
+    },
+    "shadows": {
+      "card": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+      "hover": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+      "glow": "0 0 20px rgba(255, 90, 31, 0.3)"
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%)",
+      "brand_subtle": "linear-gradient(135deg, #FFF7ED 0%, #FFF1F2 100%)"
+    }
+  },
+  "layout_strategies": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_spacing": "py-16 md:py-24",
+    "grid_system": {
+      "listings": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "features": "grid grid-cols-1 md:grid-cols-3 gap-12",
+      "bento": "grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[300px]"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-3 font-medium transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-full px-6 py-2 font-medium transition-all",
+      "outline": "border-2 border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-full px-6 py-2 transition-all"
+    },
+    "cards": {
+      "property": "group relative overflow-hidden rounded-2xl bg-card border border-border/50 shadow-sm hover:shadow-hover transition-all duration-300",
+      "feature": "p-8 rounded-2xl bg-background border border-border/50 hover:border-primary/20 transition-colors"
+    },
+    "inputs": {
+      "default": "flex h-12 w-full rounded-xl border border-input bg-background px-4 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1723013148149-af0151b81bbf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGluZGlhbiUyMHRyYXZlbGVycyUyMGZyaWVuZHMlMjBjb3VwbGUlMjB2YWNhdGlvbnxlbnwwfHx8fDE3NzA5MTg2MTN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Happy Indian couple/friends traveling - Hero Section",
+        "category": "hero"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1689702583794-ccf3e30e4f35?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMGluZGlhbiUyMHRyYXZlbGVycyUyMGZyaWVuZHMlMjBjb3VwbGUlMjB2YWNhdGlvbnxlbnwwfHx8fDE3NzA5MTg2MTN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Couple in front of monument - Hero Alternate",
+        "category": "hero"
+      }
+    ],
+    "destinations": [
+      {
+        "url": "https://images.unsplash.com/photo-1757439402115-c3c496fe81ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB2aWxsYSUyMGV4dGVyaW9yJTIwc3dpbW1pbmclMjBwb29sfGVufDB8fHx8MTc3MDkxODYxN3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Resort pool area - Featured Destination",
+        "category": "destination"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758612853656-def5033bccb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjB2aWxsYSUyMGV4dGVyaW9yJTIwc3dpbW1pbmclMjBwb29sfGVufDB8fHx8MTc3MDkxODYxN3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern villa exterior - Featured Destination",
+        "category": "destination"
+      }
+    ],
+    "properties": [
+      {
+        "url": "https://images.unsplash.com/photo-1759264244746-140bbbc54e1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMGJlZHJvb20lMjBpbnRlcmlvciUyMG1vZGVybnxlbnwwfHx8fDE3NzA4NTIzNDl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury Bedroom Interior",
+        "category": "property"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1766928210443-0be92ed5884a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMGJlZHJvb20lMjBpbnRlcmlvciUyMG1vZGVybnxlbnwwfHx8fDE3NzA4NTIzNDl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern Bedroom with Art",
+        "category": "property"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1759264244764-2cb80f1a67bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMGJlZHJvb20lMjBpbnRlcmlvciUyMG1vZGVybnxlbnwwfHx8fDE3NzA4NTIzNDl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Clean White Bedroom",
+        "category": "property"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758448755969-8791367cf5c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMGJlZHJvb20lMjBpbnRlcmlvciUyMG1vZGVybnxlbnwwfHx8fDE3NzA4NTIzNDl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Ornate Luxury Bedroom",
+        "category": "property"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "INSTALL FONTS: Add 'Playfair Display' and 'Manrope' from Google Fonts in index.html or CSS.",
+    "THEME SETUP: Implement the color palette in tailwind.config.js. Use CSS variables for dynamic theme switching.",
+    "ICONS: Use 'lucide-react' for all UI icons. Use 'phosphor-icons' if you need more specific travel icons.",
+    "MAPS: Use 'react-map-gl' or 'google-map-react' for the map integration. Ensure the map is interactive.",
+    "CURRENCY: ALL prices must be displayed in Indian Rupees (₹). Use 'Intl.NumberFormat' for proper formatting (e.g., ₹12,000).",
+    "FORMS: Use 'react-hook-form' + 'zod' for the 'List Your Property' flow. It must be robust.",
+    "ANIMATIONS: Use 'framer-motion' for page transitions and card hover effects. Keep it smooth, not jerky.",
+    "TESTING: Add 'data-testid' to all interactive elements (buttons, inputs, cards) for testing.",
+    "ACCESSIBILITY: Ensure all text meets APCA contrast standards. Use semantic HTML.",
+    "DO NOT use generic 'lorem ipsum'. Use realistic travel content (e.g., 'Luxury Villa in Goa', 'Cozy Homestay in Manali')."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI slop' aesthetic (generic centered layouts, gradients).",
+    "Create depth with layered shadows and z-index.",
+    "Use glassmorphism for sticky headers and overlays.",
+    "Micro-animations are mandatory for all interactions.",
+    "Use 2-3x more spacing than typical designs.",
+    "NEVER use AI emojis (🤖, 🚀) as icons.",
+    "Use 'sonner' for toast notifications."
+  ]
+}
