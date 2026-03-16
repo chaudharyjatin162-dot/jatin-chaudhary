@@ -1,0 +1,191 @@
+{
+  "identity": {
+    "persona": "E1: The Anti-AI Designer",
+    "mission": "Create a Property Hub that feels like a travel magazine, not a booking spreadsheet.",
+    "core_principles": [
+      "Fusion over Imitation: Mix Botanical Illustrations with Swiss Typography.",
+      "Emotion First: Adventure and Comfort.",
+      "Content is King: Every property listing tells a story.",
+      "Zoom In: High-quality textures in photos.",
+      "Negative Space: Luxurious breathing room."
+    ]
+  },
+  "typography": {
+    "font_families": {
+      "headings": {
+        "name": "Playfair Display",
+        "type": "Serif",
+        "usage": "All H1-H3 headings. Use for hero titles and section headers.",
+        "fallback": "serif"
+      },
+      "body": {
+        "name": "DM Sans",
+        "type": "Sans-serif",
+        "usage": "All body text, UI elements, buttons, and small labels.",
+        "fallback": "sans-serif"
+      }
+    },
+    "rules": [
+      "Headings (Size > 32px): MUST use tracking-tight.",
+      "Overlines / Labels: MUST be Uppercase + Tiny + Wide Spacing (tracking-[0.2em]).",
+      "Line Height: leading-none for headers, leading-relaxed for body.",
+      "No Inter allowed for Headings."
+    ]
+  },
+  "colors": {
+    "palette_name": "Organic & Earthy (Archetype 1)",
+    "description": "Grounded, matte, physical. Reflects nature, trust, and warmth.",
+    "theme": "light",
+    "tailwind_variables": {
+      "background": "40 20% 98%",
+      "foreground": "220 13% 18%",
+      "card": "40 20% 98%",
+      "card-foreground": "220 13% 18%",
+      "popover": "40 20% 98%",
+      "popover-foreground": "220 13% 18%",
+      "primary": "143 50% 20%",
+      "primary-foreground": "40 20% 98%",
+      "secondary": "13 68% 63%",
+      "secondary-foreground": "40 20% 98%",
+      "muted": "40 10% 94%",
+      "muted-foreground": "220 8% 46%",
+      "accent": "13 68% 63%",
+      "accent-foreground": "40 20% 98%",
+      "destructive": "0 84.2% 60.2%",
+      "destructive-foreground": "0 0% 98%",
+      "border": "40 10% 90%",
+      "input": "40 10% 90%",
+      "ring": "143 50% 20%"
+    },
+    "utility_classes": {
+      "bg_main": "bg-[#FDFBF7]",
+      "text_main": "text-[#1F2937]",
+      "bg_primary": "bg-[#1A4D2E]",
+      "text_primary": "text-[#FDFBF7]",
+      "bg_secondary": "bg-[#E07A5F]",
+      "border_subtle": "border-[#E5E3DE]"
+    }
+  },
+  "layout": {
+    "spacing_scale": "p-1, p-2, p-4, p-6, p-8, p-12, p-16, p-20, p-24, p-32",
+    "container_padding": "px-6 md:px-12 lg:px-20",
+    "grid_systems": {
+      "marketing": {
+        "name": "The Tetris Grid",
+        "classes": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8 md:gap-12",
+        "description": "Asymmetrical layout for destination discovery."
+      },
+      "dashboard": {
+        "name": "High Density Grid",
+        "classes": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+        "description": "Dense data correlation for admin stats."
+      }
+    }
+  },
+  "components": {
+    "buttons": {
+      "style": "pill-shaped",
+      "classes": "rounded-full px-8 py-4 font-medium transition-transform active:scale-95 hover:shadow-lg",
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/90",
+      "outline": "border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+    },
+    "cards": {
+      "style": "organic-minimal",
+      "classes": "bg-white border border-border/40 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300",
+      "dashboard_card": "bg-white/50 backdrop-blur-sm border border-border/60 rounded-xl p-6"
+    },
+    "inputs": {
+      "style": "understated",
+      "classes": "bg-transparent border-b-2 border-border focus:border-primary rounded-none px-0 py-2 focus:ring-0 transition-colors"
+    },
+    "navigation": {
+      "style": "glassmorphism",
+      "classes": "bg-white/70 backdrop-blur-xl border-b border-white/20 sticky top-0 z-50"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_backgrounds": [
+        {
+          "url": "https://images.unsplash.com/photo-1752563029948-de870b0add3b",
+          "description": "Luxury dining interior, warm tones",
+          "category": "hero"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1761926041609-10ea291c463e",
+          "description": "Snow-capped mountains, adventure vibe",
+          "category": "hero"
+        }
+      ],
+      "property_placeholders": [
+        {
+          "url": "https://images.unsplash.com/photo-1633605015660-b0f2dbad3bf2",
+          "description": "Hotel bedroom interior",
+          "category": "hotel"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1565255822848-80db21938837",
+          "description": "Homestay exterior, cozy",
+          "category": "homestay"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1681116120107-2afdae5e26f9",
+          "description": "Beach sunset, relaxation",
+          "category": "resort"
+        },
+        {
+            "url": "https://images.unsplash.com/photo-1752732673251-4e7318397e3d",
+            "description": "Trekking adventure",
+            "category": "adventure"
+        }
+      ]
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "stroke-1.5"
+    }
+  },
+  "universal_guidelines": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ],
+  "accessibility": {
+    "contrast": "Ensure text meets APCA standards against backgrounds.",
+    "interactive_elements": "Minimum 3:1 contrast ratio against adjacent colors.",
+    "hover_states": "ALWAYS explicitly set text color on hover.",
+    "testing": "All interactive and key informational elements MUST include a data-testid attribute."
+  },
+  "motion": {
+    "library": "framer-motion",
+    "default_transition": {
+      "type": "spring",
+      "stiffness": 260,
+      "damping": 20
+    },
+    "hover": {
+      "scale": 1.05,
+      "y": -2
+    },
+    "viewport": {
+      "once": true,
+      "amount": 0.3
+    }
+  }
+}
